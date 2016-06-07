@@ -1,0 +1,28 @@
+
+.col p{
+    padding: 1em 0;
+}
+
+.mapadd{
+    margin: 5em auto;
+    line-height: 2em;
+}
+
+/*article{
+    margin: 20px;
+}*/
+
+h2{
+    color: burlywood;
+}
+
+div #googleMap{
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+    padding:10px;
+    border: 1px solid #dedede;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius:15px;
+}
