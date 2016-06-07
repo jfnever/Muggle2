@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>MuggleWorks | 联系我们</title>
+<head>
+    <meta charset="UTF-8">
+    <link href="css/reset.css" type="text/css" rel="stylesheet"/>
+    <link href="css/main.css" type="text/css" rel="stylesheet"/>
+    <link href="css/grid.css" type="text/css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Hind|Merriweather+Sans:800,400|Catamaran:800,400' rel='stylesheet' type='text/css'>
+    <link href="css/contactpage.css" type="text/css" rel="stylesheet"/>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAoHTqqVjCDe4oxSSSXLey9O6ZNyd8Nhdw&sensor=false">
+    </script>
+
+    <style>
+
+
+    </style>
+
+    <script>
+        function initialize()
+        {
+            var mapProp = {
+                center:new google.maps.LatLng(29.5,106.5),
+                zoom:9,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap")
+                    ,mapProp);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <img src="image/yanhuo.jpg" />
+        <div class="logo">
+            <a href="index.html"><img src="image/logo.png" alt="Muggleworks|麻瓜"></a>
+        </div>
+
+        <div class="section group nav">
+            <div class="col span_1_of_4 navcontent">
+                <a href="index.html">Homepage</a>
+            </div>
+            <div class="col span_1_of_4 navcontent">
+                <a href="about.html">About</a>
+            </div>
+            <div class="col span_1_of_4 navcontent">
+                <a href="Projects.html">Projects</a>
+            </div>
+            <div class="col span_1_of_4 navcontent">
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <div class="main">
+
+        <article class="description">
+
+            <p>
+
+            <span class="orange">MuggleWorks</span> combines the brain power of 2 college graduates (<span class="orange">Feng Jiang</span> & <span class="orange" >Kang Dai</span>). At this point <span class="orange"> MuggleWorks</span> is mainly for <span class="orange">Feng Jiang</span> to share their ideas and daily life with friends, it's still under construction. If you have any comments, please email me: <a href="mailto:jfnever@hotmail.com">jfnever@hotmail.com</a>
+
+            </p>
+
+        </article>
+
+
+
+
+        <div class="section group mapAPI" >
+            <div id="googleMap" class="col span_5_of_8" >
+
+            </div>
+            <div class="col span_3_of_8 mapadd">
+                <h3 class="orange">Our Location:</h3>
+                <p>
+                    重庆市渝中区大坪正街160号<br/>
+                    万科中心4栋4011, 邮编400012<br/>
+                    Tel:+86 23 66668888
+                </p>
+                <input type="button" value="Find Us" id="sheffield" onclick="initMapSheffield();markerMake();return false;"/>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <footer>
+        <div class="section group">
+            <div class="col span_1_of_3">
+
+            </div>
+
+            <div class="col span_1_of_3">
+                <p>
+                    ©2016 MuggleWorks
+                </p>
+
+            </div>
+
+            <div class="col span_1_of_3">
+                <span>Follow US</span>
+
+                <ul class="social">
+
+                    <li><a href="#" target="_blank"><img src="//cdn.shopify.com/s/files/1/0201/5824/t/14/assets/social_facebook_25x25.png?13616910263427848484" alt=""></a></li>
+                    <li><a href="#" target="_blank"><img src="//cdn.shopify.com/s/files/1/0201/5824/t/14/assets/social_twitter_25x25.png?13616910263427848484" alt=""></a></li>
+                    <li><a href="#" target="_blank" rel="publisher"><img src="//cdn.shopify.com/s/files/1/0201/5824/t/14/assets/social_google_25x25.png?13616910263427848484" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+    </footer>
+</div>
+
+
+
+
+
+
+<script src="javascript/maps.js"></script>
+<script src="javascript/jquery-2.2.4.min.js"></script>
+</body>
+
+

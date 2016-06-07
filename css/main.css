@@ -117,6 +117,62 @@ footer img:hover{
     border: 1px dashed #727272;
     letter-spacing: 0.08em;
     line-height: 1.5em;
+   /* font-weight: bold;*/
+    font-size: larger;
 
+}
+
+.list{
+    padding: 0  4%;
+}
+
+.listItems{
+    max-width:220px ;
+    max-height: 220px;
+    width: 80%;
+    height: 80%;
+    margin: 2em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius:50%;
+    border: 1px solid #727272;
+
+
+
+}
+
+.listDescriptions{
+    margin: 1em;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    padding: 8% 1% 15% 1%;
+
+}
+
+article h4{
+    margin: 0.5em 0 1em 0;
+    font-family: 'arial', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    color: #FF8C00;
+}
+
+article p{
+    line-height: 2em;
+    border: 1px dotted #727272;
+    padding: 2px 5px;
+}
+
+.wheretodisplay{
+
+    line-height: 2em;
+    border: 1px dotted #727272;
+    padding: 2px 5px;
+    margin:1% 2%;
+
+}
+
+#pb,#bk,#hp{
+    display: none;
 }
 

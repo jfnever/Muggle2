@@ -1,0 +1,18 @@
+h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.construction img{
+    width: 80%;
+    height: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+
+
+}
+
+.construction{
+    text-align: center;
+}
